@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Metadata goes here -->
+    <title>Interneting Is Easy!</title>
+</head>
+
+<body>
+    <!-- Content goes here -->
+    <h1>This course is easy</h1>
+    <p>First, we need to review some basic HTML</p>
+    <h2>Headings</h2>
+    <p>Headings define the outline of your site. There are six levels of headings</p>
+    <h2>Lists</h2>
+    <h3>Unordered lists</h3>
+    <p>This is how you make an unordered list:</p>
+    <ul>
+        <li>Add a "ul" element (it stands for unordered list)</li>
+        <li>Add each item in it's own "li" element</li>
+        <li>They don't need to be in any particular order</li>
+    </ul>
+    <pre>
+        &lt!-- This is bad (no li element following the ul) -->
+        &ltul>
+            &ltp>Add a "ul" element (it stands for unordered list)&lt/p>
+        &lt/ul>
+    </pre>
+    <pre>
+        &lt!-- This is good -->
+        &ltul>
+            &ltli>&ltp>Add a "ul" element (it stands for unordered list)&lt/p>&lt/li>
+        &lt/ul>
+    </pre>
+    <h3>Ordered lists</h3>
+    <p>This is what an ordered list looks like:</p>
+    <ol>
+        <li>Notice how the new "ol" element wraps everything?</li>
+        <li>But, the list item elements are the same</li>
+        <li>Also note how the numbers increment on their own</li>
+        <li>You should be noticing things is this precise order, because this is an ordered list.</li>
+    </ol>
+    <h2>Inline elements</h2>
+    <h3>Emphasis element</h3>
+    <p><em>Sometimes</em>, you need to draw attention to a particular <strong>word</strong> or <strong>phrase</strong>.
+    </p>
+    <pre>
+        &lt!-- Don't nest things like this -->
+        &ltp>This is a&ltem>badly&lt/p>nested phrase&lt/em>
+    </pre>
+    <h3>Strong element</h3>
+    <p>Other times you need to <strong>strongly</strong> emphasize the importance
+        of a word or phrase.</p>
+    <p><em><strong>And sometimes you need to nest &ltem> and &ltstrong> elements!</strong></em></p>
+    <h2>Empty elements</h2>
+    <p>This text should be displayed without indentation, with no new line between "regards" and "The Authors", despite
+        indentation and new lines being in the raw code.</p>
+
+    <p>Regards,
+        The Authors</p>
+
+    <hr />
+    <p>This text has a line break after "regards,", because a &ltbr/> element was used.</p>
+
+    <p>Regards,<br />
+        The Authors</p>
+    <hr />
+    <p>Thanks for reading! Interneting should be getting easier now.</p>
+
+    <p>Regards,<br />
+        The Authors</p>
+
+    <hr />
+
+    <p>P.S. This page might look like crap, but we'll fix that with some CSS soon. (Thank God for that.)</p>
+</body>
+
+</html>
