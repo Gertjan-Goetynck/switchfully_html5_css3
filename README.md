@@ -6,3 +6,4 @@ Completed chapters:
 - Hello CSS
 - CSS box model
 - CSS selectors
+- Floats
