@@ -4,3 +4,4 @@ Completed chapters:
 - Basic web pages
 - Links and images
 - Hello CSS
+- CSS box model
