@@ -5,3 +5,4 @@ Completed chapters:
 - Links and images
 - Hello CSS
 - CSS box model
+- CSS selectors
