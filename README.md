@@ -7,3 +7,4 @@ Completed chapters:
 - CSS box model
 - CSS selectors
 - Floats
+- Flexbox
