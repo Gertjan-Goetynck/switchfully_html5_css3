@@ -8,3 +8,4 @@ Completed chapters:
 - CSS selectors
 - Floats
 - Flexbox
+- Responsive design
