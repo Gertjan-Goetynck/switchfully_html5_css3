@@ -9,3 +9,4 @@ Completed chapters:
 - Floats
 - Flexbox
 - Responsive design
+- Semantic HTML
