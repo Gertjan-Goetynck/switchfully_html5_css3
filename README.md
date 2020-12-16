@@ -10,3 +10,4 @@ Completed chapters:
 - Flexbox
 - Responsive design
 - Semantic HTML
+- Forms
